@@ -5,7 +5,6 @@ const greetings = {
     es: 'Hola',
     fr: 'Bonjour',
 }
-
     return (
         <div className="container">
            {greetings[lang]} {children} 
